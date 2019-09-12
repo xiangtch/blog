@@ -1,2 +1,2 @@
-# DeepEXI
+# Xiangtch
 
