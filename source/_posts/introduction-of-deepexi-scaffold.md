@@ -64,7 +64,7 @@ DeepEXI脚手架工具是用于微服务架构环境下，为快速开发而准�
 
 接下来按照交互模式的指引操作，即可生成属于你的脚手架
 
-![scaffold cli](https://raw.githubusercontent.com/deepexi/blog/master/source/_posts/image/scaffold_cli.jpg)
+![scaffold cli](https://raw.githubusercontent.com/xiangtch/blog/master/source/_posts/image/scaffold_cli.jpg)
 
 ### UI
 
@@ -80,9 +80,9 @@ $ scaffold-ui start -p 7001 -s
 
 第一次访问页面时需要读取脚手架工具的相关信息，可能会比较缓慢，请耐心等候，加载过一次之后就很快了。
 
-![scaffold ui index](https://raw.githubusercontent.com/deepexi/blog/master/source/_posts/image/scaffold_ui_index.jpg)
+![scaffold ui index](https://raw.githubusercontent.com/xiangtch/blog/master/source/_posts/image/scaffold_ui_index.jpg)
 
-![scaffold ui sc](https://raw.githubusercontent.com/deepexi/blog/master/source/_posts/image/scaffold_ui_sc.jpg)
+![scaffold ui sc](https://raw.githubusercontent.com/xiangtch/blog/master/source/_posts/image/scaffold_ui_sc.jpg)
 
 #### 在DeepEXI DevOps上使用
 
@@ -92,10 +92,10 @@ TODO:: 待补充
 
 项目结构
 
-![project structure](https://raw.githubusercontent.com/deepexi/blog/master/source/_posts/image/project_structure.jpg)
+![project structure](https://raw.githubusercontent.com/xiangtch/blog/master/source/_posts/image/project_structure.jpg)
 
 Swagger运行时文档
 
-![swagger](https://raw.githubusercontent.com/deepexi/blog/master/source/_posts/image/swagger.jpg)
+![swagger](https://raw.githubusercontent.com/xiangtch/blog/master/source/_posts/image/swagger.jpg)
 
 
