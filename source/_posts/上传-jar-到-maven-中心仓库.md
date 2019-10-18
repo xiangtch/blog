@@ -38,12 +38,8 @@ categories:
 
 ```xml
  <server>
-    <id>sonatype-nexus-snapshots</id>
-    <username>https://issues.sonatype.org的账号</username>
-    <password>https://issues.sonatype.org的密码</password>
-  </server>
-  <server>
-    <id>sonatype-nexus-staging</id>
+     <!-- 注意这里的 id 要和 pom.xml 中的 distributionManagement 中的 id 一致 -->
+    <id>ossrh</id>
     <username>https://issues.sonatype.org的账号</username>
     <password>https://issues.sonatype.org的密码</password>
   </server>
@@ -52,11 +48,6 @@ categories:
 ### 2. 配置使用项目中的 pom.xml
 
 ```xml
-<parent>
-	<groupId>org.sonatype.oss</groupId>
-	<artifactId>oss-parent</artifactId>
-	<version>7</version>
-</parent>
 
 <licenses>
 	<license>
@@ -80,6 +71,18 @@ categories:
         <url>https://taccisum.github.io</url>
     </developer>
 </developers>
+
+<!--写你自己的，这只是个例子-->
+<distributionManagement>
+    <repository>
+        <id>ossrh</id>
+        <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+    </repository>
+    <snapshotRepository>
+        <id>ossrh</id>
+        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+    </snapshotRepository>
+</distributionManagement>
 ```
 
 ## 四、GPG 环境
