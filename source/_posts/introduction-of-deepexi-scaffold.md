@@ -2,7 +2,6 @@
 title: DeepEXI脚手架工具介绍
 date: 2019-10-15 10:03:24
 tags:
-  - deepexi
   - scaffold
 categories:
   - scaffold
@@ -83,10 +82,6 @@ $ scaffold-ui start -p 7001 -s
 ![scaffold ui index](https://raw.githubusercontent.com/xiangtch/blog/master/source/_posts/image/scaffold_ui_index.jpg)
 
 ![scaffold ui sc](https://raw.githubusercontent.com/xiangtch/blog/master/source/_posts/image/scaffold_ui_sc.jpg)
-
-#### 在DeepEXI DevOps上使用
-
-TODO:: 待补充
 
 ## 其它示例截图
 
