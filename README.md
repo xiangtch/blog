@@ -1,8 +1,8 @@
-# DeepEXI Team Blog
+# Xiangtch Blog
 
 ## 简介
 
-为了方便团队间的技术交流与共享，采用 Hexo 与 github 实现开源博客项目的快速构建与发布。
+为了方便技术整理，采用 Hexo 与 github 实现开源博客项目的快速构建与发布。
 
 ## 环境准备
 
