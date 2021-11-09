@@ -15,7 +15,7 @@
 1. clone 该项目
 
    ```bash
-   $ git clone https://github.com/deepexi/blog.git
+   $ git clone https://github.com/xiangtch/blog.git
    ```
 
 2. 安装 hexo
@@ -43,6 +43,6 @@
 
    ```bash
    $ hexo d
-   $ open https://deepexi.github.io
+   $ open https://xiangtch.github.io
    ```
 
